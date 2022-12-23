@@ -20,7 +20,7 @@ import model.Student;
 public class StudentDAO {
 	private String jdbcURL = "jdbc:mysql://localhost:3306/hhudatamgt?useSSL=false";
 	private String jdbcUsername = "root";
-	private String jdbcPassword = "Yvestack01$";
+	private String jdbcPassword = "root";
 
 	private static final String INSERT_USERS_SQL = "INSERT INTO students" + "  (student_no, name, email, country, college) VALUES "
 			+ " (?, ?, ?, ?, ?);";
