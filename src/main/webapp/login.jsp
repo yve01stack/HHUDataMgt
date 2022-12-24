@@ -23,12 +23,13 @@
 	</header>
 	<br>
 	<div class="container col-md-5">
+		<h1 class="text-center">Welcome to Student Information Management System</h1>
 		<div class="card">
 			<div class="card-body">
 				<form action="login" method="post">
 
 				<caption>
-					<h2>Login</h2>
+					<h2>Please Login</h2>
 				</caption>
 
 				<fieldset class="form-group">
